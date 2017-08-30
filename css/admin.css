@@ -1,0 +1,68 @@
+﻿p.er {
+    margin-bottom: 25px;
+}
+table {
+    background: rgba(26,168,133,0.2) !important;
+    color: #323232;
+    font-family: inherit;
+    font-size: 12px;
+}
+b {
+    color: #fff;
+}
+table td {
+    padding: 10px 10px 8px 32px;color: #fff;
+}
+div#account {
+    background: rgba(0, 0, 0, 0.23);
+    padding: 15px;
+    position: relative;
+    z-index: 99;
+}
+.account {
+    width: 310px;
+    padding: 25px 0 75px;
+    position: absolute;
+    z-index: -1;
+}
+.blockses2 {
+    margin-left: 400px;
+}
+#account form div {
+    background: none !important;
+    padding: 0px !important;
+    margin: 0px 0px 10px 19px;
+    position: relative;
+    top: -12px;
+}
+input.subm {
+    height: 35px;
+    padding: 0 21px;
+    border: 0;
+    background: #4fb69c;
+    font: 16px/35px "PFDinTextCondProRegular", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;margin-top:20px;
+}
+fieldset {
+    border: none;
+}
+h3 {
+    margin-top: 60px;
+}
+input[type="text"], select, input[type="password"] {
+    width: 510px;
+    padding: 10px 10px 10px;
+    border: 1px solid #9AFFE6;
+    background: rgba(255, 255, 255, 0);
+    font: 13px/17px Arial, Tahoma, sans-serif;
+    color: #FFF;
+}

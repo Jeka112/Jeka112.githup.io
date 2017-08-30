@@ -1,0 +1,32 @@
+/*==========Accordion===========*/
+.ui-helper-hidden{display:none}
+.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}
+.ui-helper-clearfix:after{clear:both}
+.ui-helper-clearfix{min-height:0}
+.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;}
+.ui-front{z-index:100}
+.ui-state-disabled{cursor:default!important}
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}
+.ui-accordion .ui-accordion-header{display:block;cursor:pointer;position:relative;margin:2px 0 0 0;padding:.5em .5em .5em .7em;min-height:0;font-size:100%}
+.ui-accordion .ui-accordion-icons{padding-left:2.2em}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons{padding-left:2.2em}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{position:absolute;left:.5em;top:50%;margin-top:-8px}
+.ui-accordion .ui-accordion-content{padding:1em 2.2em;border-top:0;overflow:auto}
+.ui-state-focus { outline: 0; }
+
+
+.faq { padding: 5px 29px 45px 0; }
+.faq .ui-accordion-header { padding: 18px 0 13px 24px; margin: 0 0 1px; border: 1px solid #4fb69c; background: url(../img/arrow.png) right 50% no-repeat; font: 20px/22px 'PFDinTextCondProMedium_1', sans-serif; text-transform: uppercase; color: #555; }
+.faq .ui-accordion-header-active { background-image: url(../img/arrow2.png); }
+.faq .ui-accordion-content { padding: 0; margin-bottom: 1px; }
+.faq .box { padding: 27px 26px 24px; background: #4fb69c; font: italic 14px/17px Arial, Tahoma, sans-serif; color: #b5eee0; }
+
+
+.accordion { padding: 5px 29px 0 0; }
+.accordion .ui-accordion-header { padding: 14px 0 13px 16px; margin: 0 0 1px; border: 1px solid #4fb69c; background: rgba(255,255,255,0.5) url(../img/arrow.png) right 50% no-repeat; }
+.accordion .ui-accordion-header-active { background-image: url(../img/arrow2.png); }
+.accordion .ui-accordion-content { padding: 0; overflow: visible; }
+/*==========Accordion===========*/

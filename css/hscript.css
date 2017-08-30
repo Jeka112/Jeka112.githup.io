@@ -1,0 +1,218 @@
+span.err {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #bfbeba;
+  }
+.table { margin-bottom: 0; }
+.table td { border: none; padding: 0px;}
+.paginator { display: block; margin-top:15px; clear:both; padding-bottom: 3px;}
+.paginator > a
+{
+  padding: 0 5px;
+  height: 20px; line-height: 20px;
+  color: rgb(255, 111, 0);
+  font-weight: 600;
+  margin: 0 2px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.paginator > a.pgactive { color: #fff;
+  background: url('../images/blue-bg.png') center center repeat-x;
+  background-size: auto auto;
+
+}
+
+.table td[align="right"] { padding: 0; }
+.table td[align="right"] > label { display: none;  width: 0; }
+.table.table-login { margin-top: 10px;}
+.table-settings  td p
+{
+  float:right;
+}
+.table-operations  td {padding: 0 10px;  height: 25px !important; line-height: 25px;}
+.table-operations  th { display: none; padding: 0; }
+.table-operations  td label
+{
+  float:left;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+.table-operations>tbody>tr>td{
+  padding: 6px 10px !important;
+vertical-align: middle;
+height: 25px;
+line-height: 25px;
+}.table-operations>tbody>tr>td>label { margin: 0;}
+.table-operations>tbody>tr>td>p{ margin: 0; }
+.table-operations>tbody>tr:nth-child(odd) {
+background: rgba(204, 89, 0, 0.09);
+}
+p.info {text-indent: 0;
+  text-align: center;
+padding: 5px 0;}
+.nobefore:before { display: none;}
+.table-operations  td p
+{
+  float:right;
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+  color: #7E7E7E !important;
+  line-height: 30px;
+}
+ .table-operations input { text-align: center;}
+ .table-operations th { padding: 0 !important; }
+ .table-operations { margin-bottom: 20px; }
+.support-form  { margin-top: -28px; }
+.table-settings th{ background: none; box-shadow:none;}
+.table-settings>tbody>tr>td { padding: 5px 10px  !important;  vertical-align: middle;
+  height: 30px; line-height: 30px; }
+.table-settings>tbody>tr:nth-child(odd) { background:rgba(255,255,255,0.7);}
+
+.table-settings>tbody>tr>td>label {   margin: 0; padding: 0; }
+.table-settings>tbody>tr>td>p {  margin: 0; padding: 0; }
+
+.table-settings { margin-top: 10px; }
+.table-settings  td {height: 40px;  }
+.table-settings  td label
+{
+   line-height: 35px;
+   display: block;
+   vertical-align: middle;
+   font-weight: 300;
+   font-size: 14px;
+   float:left;
+}
+.table-settings  td small {
+   display: inline-block; vertical-align: top;
+   margin-top:10px;
+   margin-left: 5px;
+   padding: 0 10px;
+   float:left; color:#ccc;
+   line-height: 15px;
+   height: 15px;
+   background: #fff;
+}
+
+.table-settings.exchange  td small {  float:right !important; margin-left: 3px; margin-left: 3px; margin-top: 2px;}
+.table-settings.exchange  td i { float:right; font-style: 16px; font-weight: 600; font-style: normal;}
+
+.title-in-table { height: 22px; margin:10px 0px;}
+.title-in-table:before {display: none; }
+
+.block-checkbox { display: none; }
+.block-checkbox input { float: left; display:block; opacity: 0.0; position: absolute; }
+.check-rules:before
+{
+  height: 20px;  content:''; left:-35px;
+  top:2px;
+ position: absolute;  width:20px;
+background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#f5f5f5));
+background: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+background: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+background: -o-linear-gradient(top, #ffffff, #f5f5f5);
+background: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+background: linear-gradient(top, #ffffff, #f5f5f5);
+background-color: #ffffff;
+color: #333;
+border-radius: 3px;
+border: 1px solid #e6e6e6;
+box-shadow: 0 1px 0px 0px #eeeeee;
+ }
+ .check-rules.active:after
+ {
+    height: 25px;  content:''; left:-37px;
+  top:-2px;
+ position: absolute;  width:25px;
+background: url('../images/icons/check-rules.png') center center no-repeat;
+background-size: 100% 100%;
+
+
+
+
+ }
+.table>tbody>tr>td { border: none;  padding: 4px;}
+.table.list-items>tbody>tr>td { padding: 4px; border-top: 0 !important;
+  vertical-align: middle; border-bottom: 1px dotted #d1dce2;}
+
+.table>tbody>tr>td.td-service-1{
+text-align: center;
+  vertical-align: middle;
+  height: 35px;
+}
+
+.table>tbody>tr>td.td-service-2 img {
+  vertical-align: middle;
+  display: inline-block;  height: 35px;}
+
+.table>tbody>tr>td.plan-data { font-weight: 600;
+ text-align: center; font-size: 16px;
+ color: #7E7E7E !important; }
+  .table>tbody>tr>td.plan-data-1
+  {
+    font-weight: 600;
+    text-align: center; font-size: 18px;
+  color: #005976;
+  line-height: 30px;
+
+  }
+   .table>tbody>tr>td.plan-data-text
+  {
+    font-weight: 300; text-align: center; font-size: 14px;
+  color: #666;
+
+  }
+
+  .table>tbody>tr>td.plan-status > a {  text-transform: uppercase;
+font-weight: 600; font-size: 18px; color: #f45b09; }
+
+.table>tbody>tr>td.td-number {
+  text-align: center;
+ font-weight: bold; font-size: 22px; color:#ccc;}
+ .table.table-wallets>tbody>tr>th
+ {
+  border: none;
+  padding: 0;
+ }
+ .title-in-table
+        {
+          color: #fff;
+
+          font-size: 17px;
+          font-weight:500;
+          padding-left: 10px;
+        font-family: 'Oswald';
+        border: none;
+          text-transform: uppercase;
+          margin: 5px 0;
+          text-shadow:0 1px 1px rgba(0,0,0,0.3);
+          display: block;
+          height: 28px;
+          line-height: 28px;
+          text-align: left;
+          background:url('../images/icons/i-wallet.png') right center no-repeat, url('../images/blue-bg.png') center center repeat-x;
+          border-radius: 15px;
+          background-size: auto 20px, auto auto;
+ }
+
+table.table-list>tbody>tr.tr-th>th{
+  background: url('../images/blue-bg.png') center center repeat-x;
+  background-size: auto 100%;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-shadow:0 1px 1px rgba(0,0,0,0.3);
+font-family: 'Oswald';
+color:#fff;
+}
+table.table-list>tbody>tr.tr-th>th > a { color:#fff;}
+table.table-list>tbody>tr.tr-th>th:first-child { border-radius: 15px 0 0 15px;}
+table.table-list>tbody>tr.tr-th>th:last-child { border-radius:  0  15px 15px 0;}
+table.table-list-inline>tbody>tr>td { line-height: 15px; }
